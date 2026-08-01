@@ -2,16 +2,21 @@
 
 ## Overview
 
-The ICT Museum Website is an interactive educational page designed for the Multimedia University of Kenya to showcase the history and evolution of Information and Communication Technology (ICT). It combines text, images, embedded audio, and video to provide an engaging learning experience.
+The ICT Museum Website is a responsive single-page site built with HTML, CSS, and JavaScript. It was created to present the history and evolution of Information and Communication Technology (ICT) in an engaging and visually appealing format.
+
+The website features a collection of images, descriptive content, embedded multimedia, and a clean user interface, allowing visitors to explore key ICT innovations and their impact on society.
+
+This project demonstrates fundamental front-end web development skills, including responsive design, multimedia integration, page layout, and user interface development.
+## Features
 
 ## Features
 
-- Responsive web design
-- Interactive navigation
-- Image gallery
-- Embedded audio
-- Video integration
-- Educational ICT content
+- Responsive single-page design
+- Educational content about ICT history
+- Image gallery showcasing ICT technologies
+- Embedded multimedia content
+- Clean and intuitive user interface
+- Built using HTML, CSS, and JavaScript
 
 ## Technologies Used
 
@@ -38,10 +43,13 @@ ICT-Museum-Website/
 
 ## Future Improvements
 
-- Backend integration
-- Search functionality
-- Virtual museum tour
-- Database support
+## Future Improvements
+
+- Add multiple museum sections and pages
+- Integrate a backend database for exhibit management
+- Add a search feature for exhibits
+- Include interactive timelines
+- Improve accessibility and mobile experience
 
 ## Author
 
