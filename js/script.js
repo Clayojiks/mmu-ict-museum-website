@@ -128,7 +128,7 @@
             caption: "Electromagnetic Evolution: From Switchboards to Smartphones"
         },
         {
-            src: "images/telepromter.jpeg",
+            src: "images/teleprompter.jpeg",
             alt: "First generation mechanical teleprompter set at ICT Museum",
             caption: "Broadcast Technology: The Dawn of Television"
         },
