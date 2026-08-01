@@ -7,7 +7,6 @@ The ICT Museum Website is a responsive single-page site built with HTML, CSS, an
 The website features a collection of images, descriptive content, embedded multimedia, and a clean user interface, allowing visitors to explore key ICT innovations and their impact on society.
 
 This project demonstrates fundamental front-end web development skills, including responsive design, multimedia integration, page layout, and user interface development.
-## Features
 
 ## Features
 
