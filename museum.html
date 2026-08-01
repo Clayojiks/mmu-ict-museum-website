@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>MMU ICT Museum | Digital Exhibit</title>
+    <link rel="stylesheet" href="css/museum.css">
+</head>
+<body>
+
+    <div class="museum-container">
+        <div class="museum-header">
+            <h1>🏛️ MMU ICT MUSEUM</h1>
+            <div class="museum-tagline">"Human Technology In The Information age · Eastern Africa's Largest Digital Museum" ·</div>
+        </div>
+        <p class="museum-description">
+            The ICT Museum exhibition hall comprises of galleries and artifacts ranging from East Africa Postal&philatelic history (Study of stamps), Telephony, Radio&radio transmissions history Computer history, and Film Media history to Mobile phones history. 
+            The ICT Museum was started in the October 2009 under the flagship of Research, Production and Extensions. Currently the section is headed by Mr. Samuel Odoyo, as the Acting Director with the support of three technical staff. The Museum is open to both internal and external visitors at reasonable fees.
+             A number of schools, colleges, and university students visiting are taken through the history of telecommunications and computing technologies in East Africa region dating back to 1901. In deed yesterdays facts tell us about today, and today’s tells us about tomorrow. 
+</p>
+
+        <!-- VIDEO SECTION -->
+        <div class="video-section">
+            <div class="section-title">
+                <h2>🎞️ Welcome to the MMU ICT Museum</h2>
+            </div>
+            <div class="video-wrapper">
+                <video id="museumVideo" poster="https://placehold.co/1200x550/1a1a2e/4ECDC4?text=MMU+ICT+MUSEUM+EXHIBIT+%7C+PRESS+PLAY" preload="metadata" loop>
+                    <source src="images/museum video.mp4" type="video/mp4">
+                    Your browser does not support the video tag. Please upgrade to view the museum exhibit film.
+                </video>
+            </div>
+            <div class="custom-controls">
+                <button class="control-btn" id="playPauseBtn">▶ PLAY</button>
+                <div class="progress-container">
+                    <span class="progress-time" id="currentTimeDisplay">0:00</span>
+                    <input type="range" id="seekSlider" value="0" step="0.01">
+                    <span class="progress-time" id="durationDisplay">0:00</span>
+                </div>
+                <div class="volume-wrap">
+                    <span>🔊</span>
+                    <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.7">
+                </div>
+            </div>
+            <div class="audio-panel">
+                <div class="audio-status">
+                    🎵 <span id="audioStateLabel">Museum Soundscape</span>
+                </div>
+                <button class="toggle-btn" id="audioToggleBtn">🔊 PLAY AUDIO</button>
+                <div class="audio-description">♪ museum hall ambience | vintage technology atmosphere</div>
+            </div>
+        </div>
+
+        <!-- Gallery down -->
+        <div class="gallery-section">
+            <div class="section-title">
+                <h2> ICT Gallery Collection · MMU Museum</h2>
+            </div>
+            <div class="gallery-grid" id="galleryGrid"></div>
+            <div class="featured-preview" id="featuredPreview">
+                <p> selected artifact </p>
+                <div class="featured-container">
+                    <img id="featuredImage" class="featured-img" src="https://placehold.co/600x350/2c2822/d6bc8a?text=Click+any+artifact+to+view" alt="featured exhibit">
+                    <div class="featured-info">
+                        <div id="featuredCaption" class="featured-caption">Explore the gallery — click any image to see details</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="museum-footer">
+            © Multimedia University of Kenya · ICT Museum Exhibit 2026
+        </div>
+    </div>
+
+    <script src="js/museum.js"></script>
+</body>
+</html>
+
